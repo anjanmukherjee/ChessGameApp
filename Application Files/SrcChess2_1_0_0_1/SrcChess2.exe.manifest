@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SrcChess2.exe" version="1.0.0.1" publicKeyToken="2b7294821171301e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SrcChess2" version="2.0.5.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SrcChess2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SrcChess2.exe" size="1862648">
+      <assemblyIdentity name="SrcChess2" version="2.0.5.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Rnrue20NXw6HBFVBcZ9y+lPiHDs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SrcChess2.exe.config" size="3200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HPuUo2lhYiMn8+6EDAYS1ICBGNA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-8P237ER\Anjan Mukherjee" issuerKeyHash="bc12f1445fc843e05f665061be40cf46f40e7bc6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>c7W2CVuOzd+56Xz8ZdBJLa8WXGo=</DigestValue></Reference></SignedInfo><SignatureValue>WIXtM4CDRQG2kAWbUUPCyXKfZdKNnJS0ntc+GZn8YCwqIb043rJmh4blyaRcsExt6nOOoZw80KnpGrVXBjYdLsgNf9ZQO4/DUw699t2AKCM1hqPZTYFpVHUg7pMBwRuK5BVJlBALdV3jL3mxGkBZTTUOKE3P2lnOrqG8pUK0pOY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rNj8V/JnFGgK/uNAgxfceWEdl6+V6ybFedxqq3gYIg/Us2m/+EZ6KQ9lzhJ94fQGKqp796N/5BjdKLR5ZNwNyiBwm6qwKf9IC1nDIijSNMb5DChmmsdavN5WrlqArDQIwGhZdAaGGrrP2qk7Gz3bCbJPZfS/L7sGhlhEAJSAQoM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6a5c16af2d49d065fc7ce9b9dfcd8e5b09b6b573" Description="" Url=""><as:assemblyIdentity name="SrcChess2.exe" version="1.0.0.1" publicKeyToken="2b7294821171301e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-8P237ER\Anjan Mukherjee</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2SUuJB9DRzG67LoNh2rx7AsYXkU=</DigestValue></Reference></SignedInfo><SignatureValue>KyW4PDq1ygg/gSmivGs5x/fmG9RIF3i0OXeNj0Ff+bvm2uZnRcqa/xH7qQXDZk3a3Du/poDUs+mY5ldmFyk89iWnJIdFXbD5Vjy9QtFXIiu+1Rsh0uI3ZHhDMD8jmwV3E4ylwm4R1oaNCZMQI+vHQg8jaOyYoz3O34hZRHK0cnM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rNj8V/JnFGgK/uNAgxfceWEdl6+V6ybFedxqq3gYIg/Us2m/+EZ6KQ9lzhJ94fQGKqp796N/5BjdKLR5ZNwNyiBwm6qwKf9IC1nDIijSNMb5DChmmsdavN5WrlqArDQIwGhZdAaGGrrP2qk7Gz3bCbJPZfS/L7sGhlhEAJSAQoM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICFTCCAX6gAwIBAgIQMPBvYEk4zaNPYiDwP3TIXzANBgkqhkiG9w0BAQUFADBJMUcwRQYDVQQDHj4ARABFAFMASwBUAE8AUAAtADgAUAAyADMANwBFAFIAXABBAG4AagBhAG4AIABNAHUAawBoAGUAcgBqAGUAZTAeFw0xNjA0MDMxNzQ1NTRaFw0xNzA0MDMyMzQ1NTRaMEkxRzBFBgNVBAMePgBEAEUAUwBLAFQATwBQAC0AOABQADIAMwA3AEUAUgBcAEEAbgBqAGEAbgAgAE0AdQBrAGgAZQByAGoAZQBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs2PxX8mcUaAr+40CDF9x5YR2Xr5XrJsV53GqreBgiD9Szab/4RnopD2XOEn3h9AYqqnv3o3/kGN0otHlk3A3KIHCbqrAp/0gLWcMiKNI0xvkMKGaax1q83lauWoCsNAjAaFl0BoYaus/aqTsbPdsJsk9l9L8vuwaGWEQAlIBCgwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAHm7yyiHitzJNJ9qBCYGp1wagYVgTXX4fSkSf50sS7pjJiQM5eglMSUs+k8txl283It+sAaUUCJYrwrLarEdvLDg2w3O97kwObIPnBnYeahbTV+pQkTJONf9ywRb+eVvI+puzIvmeRZCqB6LoduYqbg+mhnDAvLQY7x6zyJrDqY0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
